@@ -1,0 +1,10 @@
+html {
+  /* cursor: default; */
+  /* -webkit-touch-callout: none; */
+  -webkit-user-select: none; /* Webkit */
+  /* user-select: none; */
+}
+
+[role=textbox], [contenteditable=true] {
+  -webkit-user-select: text;
+}
